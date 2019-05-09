@@ -1,4 +1,3 @@
-import {combineReducers} from "redux";
 import {
   FETCH_USERS_BEGIN,
   FETCH_USERS_ERROR,

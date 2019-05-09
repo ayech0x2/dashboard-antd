@@ -1,11 +1,10 @@
-import React, {useEffect} from 'react';
+import React from 'react';
 import {BrowserRouter as Router} from "react-router-dom";
-import {connect} from "react-redux";
 
 import Layout from "./components/Layout/Layout";
 
 
-const App = (props) => {
+const App = () => {
   return (
     <div className="app">
       <Router>
@@ -15,4 +14,4 @@ const App = (props) => {
   );
 };
 
-export default connect(null)(App);
+export default App;
