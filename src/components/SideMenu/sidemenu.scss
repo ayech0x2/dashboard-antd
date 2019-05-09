@@ -1,0 +1,35 @@
+.side-menu {
+  height: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-right: 1px solid rgb(232, 232, 232);
+
+  .user-widget-container {
+    margin-bottom: 2rem;
+  }
+
+  .menu {
+    border-right: 0;
+
+    .menu-item {
+      border-radius: 2rem;
+
+      &.ant-menu-item-selected {
+        &:after {
+          display: none;
+        }
+      }
+    }
+
+  }
+
+  .side-menu-footer {
+    margin-top: auto;
+
+    .copyright {
+      font-size: 1rem;
+    }
+  }
+}

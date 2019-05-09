@@ -1,0 +1,26 @@
+.layout {
+  display: flex;
+  flex-direction: row;
+
+  .side-menu-container {
+    height: 100vh;
+    flex: 1;
+    overflow: hidden;
+    -webkit-transition: all 0.4s;
+    -moz-transition: all 0.4s;
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    transition: all 0.4s;
+  }
+
+  .content {
+    flex: 1;
+
+    .navbar-top {
+    }
+
+    .children {
+      padding: 2.5rem;
+    }
+  }
+}

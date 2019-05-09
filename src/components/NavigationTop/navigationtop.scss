@@ -1,0 +1,42 @@
+.navigation-top {
+  height: 8rem;
+  border-bottom: 1px solid #e8e8e8;
+  display: flex;
+  align-items: center;
+  .menu-toggler {
+    height: 100%;
+    width: 7.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right: 1px solid #e8e8e8;
+
+
+    .icon {
+      display: block;
+      margin: auto;
+      font-size: 2.5rem;
+      cursor: pointer;
+    }
+  }
+
+  .menu {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-bottom: 0;
+
+    .menu-item {
+      border-bottom: 0 !important;
+
+      &.ant-menu-item-selected {
+        border-bottom: 0;
+      }
+
+      &:hover, &:focus {
+        border-bottom: 0;
+      }
+    }
+  }
+}
